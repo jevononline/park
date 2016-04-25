@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>停车场</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,innitial-scale=1">  
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/my_style.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid"> 
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" 
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">
+                    <img alt="logo" src="img/logo.png" id="logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#"> 首页 </a></li>
+                    <li><a href="lubiantc.html"> 路边停车 </a></li>
+                    <li><a href="#"> 其他1 </a></li>
+                    <li><a href="#"> 其他2 </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row" id="home-banner">
+    </div>
+    <div id="content">
+        <div class="row" id="jieshao">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img alt="方案介绍" src="img/jieshao.jpg">
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1" id="dingyi">
+                        <h2> 亿车-泊云 </h2>
+                        <h4> 泊云的定义 </h4>
+                        <p>
+                        泊云，是亿车科技潜心研发，面向城市停车运维管理和车主服务推出的整
+                        体信息化集成解决方案。 
+                        </p>
+                        <h4> 泊云的应用领域 </h4>
+                        <p>
+                        城市路边停车
+                        </p>
+                        <p>
+                        智慧停车场
+                        </p>
+                        <p>
+                        车联网增值服务
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="wenti">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3> 智慧路边停车 </h3>
+                        <h4> 解决哪些问题 </h4>
+                        <ul>
+                            <li> 路内车辆乱停乱放，泊位周转率低 </li>
+                            <li> 人均管理车位数少，人力成本较高 </li>
+                            <li> 人工模式存在乱收费，无证收费现象</li>
+                            <li> 计时计费不准确 </li>
+                            <li> 
+                            缺乏有效监督，费用流失严重，人员无法有效管理 
+                            </li>
+                            <li> 
+                            信息化和智能化管理水平不高，无法建立科学、规范、
+                            实时、高效的停车信息系统 
+                            </li>
+                        </ul>
+                        <a class="btn btn-default" href="#" role="button">
+                            了解更多 </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img alt="解决的问题" src="img/wenti.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="wenti2">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img alt="解决的问题" src="img/wenti2.jpg">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3> 智慧停车场 </h3>
+                        <ul>
+                            <li> 
+                            快速通行：无需刷卡/取票，1秒超速识别入场，杜绝闸口阻
+                            塞 
+                            </li>
+                            <li> 
+                            精准引导：为车主提供实时泊位数据、入场引导及场内泊位
+                            引导，提升整体服务质量 
+                            </li>
+                            <li> 
+                            缴费方便：多渠道充值缴费方式，包含手机APP、自助缴费机
+                            、手持PDA及中央收费站等
+                            </li>
+                            <li> 
+                            节约成本：避免传统刷卡/取票系统产生的卡片及票据介质损
+                            耗，降低后期运营成本 
+                            </li>
+                            <li> 
+                            增加营收：通过泊云数据平台进行数据联网及商业挖掘，帮
+                            助停车场导流，实现车后服务和本地化服务接入，增加停车
+                            场收入 
+                            </li>
+                            <li> 
+                            智能管理：完全自动计费、扣费，高效省心，管理轻松
+                            </li>
+                        </ul>
+                        <a class="btn btn-default" href="#" role="button">
+                            了解更多 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="zengzhi">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3> 车联网增值服务 </h3>
+                        <p>
+                        通过泊云大数据平台进行大数据分析，实现精准营销，开拓车后
+                        服务市场及本地化生活服务市场，包括洗车、维修、代驾、保养
+                        及购物、餐饮、娱乐等停车场周边服务接入。
+                        </p>
+                        <a class="btn btn-default" href="#" role="button">
+                            了解更多 </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img alt="增值服务" src="img/zengzhi.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="youshi">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h1> 泊云 • 优势 </h1>
+                <hr />
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi1.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi2.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi3.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi4.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi5.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi6.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi7.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img alt="优势" src="img/youshi8.jpg">
+                        <h3> 技术领先 </h3>
+                        <p>
+                        完全基于云计算、大数据以及移动互联网和传感技术
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" id="footer">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4> 财经信息 </h4>
+                    <p> 
+                    <a href="http://www.10jqka.com.cn/" target="_blank"> 同花顺资讯 </a>
+                    </p>
+                    <p> 
+                    <a href="http://stock.qq.com/" target="_blank"> 腾讯股票 </a>
+                    </p>
+                    <p> 
+                    <a href="http://yanbao.stock.hexun.com/ybsj.aspx?type=2" target="_blank"> 机构评级 </a>
+                    </p>
+                    <p> 
+                    <a href="http://finance.sina.com.cn/stock/" target="_blank"> 新浪股票 </a>
+                    </p>
+                    <p> 
+                    <a href="http://money.163.com/stock/" target="_blank"> 网易股票 </a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4> 生活链接 </h4>
+                    <p> 
+                    <a href="http://www.sctv.cn/mlt/mltlist/" target="_blank"> 耙耳朵的幸福生活 </a>
+                    </p>
+                    <p> 
+                    <a href="http://www.hbtv.com.cn/lanmu/tswc/" target="_blank"> 天生我财 </a>
+                    </p>
+                    <p> 
+                    <a href="http://www.eastmoney.com/" target="_blank"> 东方财富 </a>
+                    </p>
+                    <p> 
+                    <a href="http://finance.sina.com.cn/stock/" target="_blank"> 网易公开课 </a>
+                    </p>
+                    <p> 
+                    <a href="http://www.my285.com/" target="_blank"> 梦远书城 </a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4> 关于我们 </h4>
+                    <p> 
+                    简洁，真实的信息交流平台，多名散户高手维护。  
+                    <a href="http://bbs.gumintx.cn/" target="_blank"> 进入论坛 </a>
+                    </p>
+                    <h4 id="contUs"> 联系我们 </h4>
+                    <p id="contactUs">   
+                    <a href="http://shang.qq.com/open_webaio.html?sigt=8d90e95912854bed6
+                        2d1a29ef9d72ee8b1cfee0b8e18634cfcd906ca8ac449efd7f82fb3920b3c5d6
+                        9d518416dba4adf&sigu=d68d51ae027c7ba9206aa3be4c7ad3c8f2df6ad32fb
+                        a3266b29d34071134885dc4aaa734c75f9639&tuin=379477233" target="_blank">
+                        QQ:379477233 
+                    </a>
+                    </p>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div class="col-md-12" id="copyRight">
+            <p>
+            简洁，真诚，实用的股票分析交流平台 .股民天下 蜀ICP备14029966号-1 
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
